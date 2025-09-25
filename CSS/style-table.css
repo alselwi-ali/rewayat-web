@@ -1,0 +1,25 @@
+body{
+        background-color:#979a8c;
+    background-image: linear-gradient(to right,#5c2e0faa 10%,transparent);
+}
+table{
+    width: 80%;
+
+    font-size: larger;
+    color: rgb(15, 13, 13);
+    margin: auto;
+    margin-top: 100px;
+}
+th{
+    background-color: #1f2117;
+    height: 40px;
+    color: rgb(224, 218, 218);
+}
+td{
+    background-color: #ebf2f4e9;
+    text-align: center;
+    height: 40px;
+
+    border: 1px solid #1890f99e ;
+  
+}

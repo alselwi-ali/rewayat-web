@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#000000;
+    background-image: linear-gradient(to right,#01022daa 10%,transparent);
+}
+label{
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+fieldset{
+    height: 300px;
+    background-color: rgba(17, 23, 10, 0.089);
+    width: 500px;
+    text-align: center ;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10%;
+    box-shadow: palevioletred 5px 5px 7px;
+    color: white;
+}
+.input-style
+{
+    box-shadow: 3px 3px 1px;  
+    text-align: start;
+}
+fieldset:hover{
+    background-color: cadetblue;
+}
+input{
+    
+}
+.box {
+  width: 600px;
+  height: 300px;
+  color: rgb(159, 163, 158);
+  text-align:start;
+  line-height: 300px;
+  font-size: 24px;
+
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 100%;           /* يأخذ كامل عرض الشاشة */
+    height: 200px;         /* يقل ارتفاعه */
+    font-size: 18px;       /* يصغر حجم النص */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .box {
+    width: 80%;
+    height: 250px;
+    font-size: 20px;
+  }
+}

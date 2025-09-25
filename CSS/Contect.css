@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    background-image: linear-gradient(to right,#01022daa 10%,transparent);
+}
+.container{
+    background-image: linear-gradient(to right,#01022daa 10%,transparent),
+    url(../img/Aesthetic-Dark-Computer-Wallpaper-2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 733.2px;
+    
+
+}
+.mb-3{
+    text-transform: uppercase;
+    font-style:oblique;
+    color:rgb(233, 229, 237);
+    -webkit-text-stroke: 0.3px blue;
+    font-size:30px;
+    padding: 9px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+fieldset{
+    height: 300px;
+    background-color: rgba(17, 23, 10, 0.089);
+    width: 500px;
+    text-align: center ;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5%;
+    box-shadow: palevioletred 2px 2px 2px;
+    color: white;
+}
+
+.text-center_py-3{
+
+color:yellow;
+font-size: 18px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #06a399;       /* لون الأيقونات */
+  font-size: 24px;    /* حجم الأيقونات */
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #07a05b;     /* تغيير اللون عند المرور */
+}

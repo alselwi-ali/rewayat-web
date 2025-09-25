@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    /* background-image: linear-gradient(to right,#01022d,#1a1a29); */
+
+    background-color:#000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container
+{
+    background-image: linear-gradient(to right,#01022daa 10%,transparent),
+    url(../img/Aesthetic-Dark-Computer-Wallpaper-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 95%;
+    height: 700px;
+    border-radius: 50px;
+}
+/* .container:hover{
+    background-image: linear-gradient(to right,#01022daa 10%,),
+    url(img/Aesthetic-Dark-Computer-Wallpaper-2.jpg);
+} */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+nav{
+    position: relative;
+    left: 30%;
+    width: 80%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+   
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    
+}
+ul a{
+    border-bottom: 2px solid transparent;
+    font-size: 17px;
+    /* padding: 20px; */
+}
+ul a:hover
+{
+    border-bottom: 2px solid white;
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top: 180px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+.content p{
+    letter-spacing: 2px;
+    width: 460px;
+    padding: 20px 0;
+}
+.content button{
+    font-size: 20px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.Dis{
+align-items: center;
+display: flex;
+
+}
+
